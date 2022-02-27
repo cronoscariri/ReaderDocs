@@ -1,1 +1,5 @@
-{"command": "connect_reader", "hostname": "192.168.0.99"}
+{
+    "command": "connect_reader",
+    "hostname": "192.168.0.99",
+    "backup": true
+}

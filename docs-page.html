@@ -556,12 +556,17 @@
 						</ul>
 
 						<p>
-							Para executar o binário, execute o comando abaixo:
+							To run the binary, run the command below:
 						</p>
 
 						<code>java -jar cli_client.jar localhost 8686</code>
 
 						<br /><br />
+
+						<p>
+							Once this is done, you are already connected to the microservice and can send messages to
+							it.
+						</p>
 
 						<h5>Send messages</h5>
 						<div class="table-responsive my-4">
@@ -573,7 +578,8 @@
 										<td>{ "command": "connect_reader" }</td>
 									</tr>
 									<tr>
-										<th class="theme-bg-light"><a class="theme-link" href="#">Connect reader custom</a>
+										<th class="theme-bg-light"><a class="theme-link" href="#">Connect reader
+												custom</a>
 										</th>
 										<td>{"command": "connect_reader", "hostname": "192.168.0.99"}</td>
 									</tr>
@@ -598,6 +604,8 @@
 								</tbody>
 							</table>
 						</div>
+
+						<p>To learn more about command messages, see the <a href="#section-4">integration session</a>.</p>
 					</section>
 
 					<section class="docs-section" id="item-2-2">
