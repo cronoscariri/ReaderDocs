@@ -1,5 +1,11 @@
 {
     "command": "connect_reader",
     "hostname": "192.168.0.99",
-    "backup": true
+    "port": 5084,
+    "antenna1": true,
+    "antenna2": false,
+    "antenna3": false,
+    "antenna4": false,
+    "logs_service": true,
+    "logs_tags": true
 }

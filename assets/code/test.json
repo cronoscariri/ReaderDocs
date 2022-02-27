@@ -1,0 +1,7 @@
+{"command": "connect_reader"}
+{"command": "connect_reader", "antenna1": true, "antenna2": false, "antenna3": false, "antenna4": false}
+
+{"command": "start_reader"}
+{"command": "stop_reader"}
+{"command": "disconnect_reader"}
+{"command": "disconnect_client"}
